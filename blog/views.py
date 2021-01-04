@@ -308,6 +308,8 @@ def fileupload(request):
         return HttpResponse("only for post")
 
 
+
+# 刷新缓存
 @login_required
 def refresh_memcache(request):
     try:

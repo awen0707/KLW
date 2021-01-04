@@ -19,7 +19,7 @@ def env_to_bool(env, default):
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-
+# 项目路径
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -104,7 +104,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangoblog',
         'USER': 'root',
-        'PASSWORD': 'blitz0707',
+        'PASSWORD': 'password',
         'HOST': '127.0.0.1',
         'PORT': 3306,
     }
